@@ -68,6 +68,12 @@ footer{
   background: #ddd;
 }
 
+@media screen and (max-width: 700px){
+  .row, nav{
+      flex-direction: column;
+  }
+}
+
 @media screen and (orientation: portrait)
 {
   header{
@@ -77,7 +83,7 @@ footer{
     color: white;
   }
 
-  row{
+  .row{
     flex-direction: column-reverse;
   }
 }

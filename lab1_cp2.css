@@ -70,7 +70,7 @@ footer{
 
 /*For devices with small screen width*/
 @media screen and (max-width: 700px){
-  row, navbar{
+  .row, nav{
       flex-direction: column;
   }
 }
