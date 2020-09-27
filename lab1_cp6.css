@@ -116,23 +116,3 @@ footer{
     flex-direction: column;
   }
 }
-
-@media screen and (orientation: portrait)
-{
-  header{
-    padding: 10px;
-    text-align: center;
-    background: #FFA500;
-    color: white;
-  }
-
-  .row{
-    flex-direction: column-reverse;
-  }
-}
-
-@media print{
-  header, nav, aside, footer{
-      display: none;
-  }
-}
