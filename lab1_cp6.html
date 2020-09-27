@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- Metadata -->
+  <head>
+    <link rel="stylesheet" href="lab1_cp6.css">
+    <script src="lab1_cp6.js"></script>
+  </head>
+
+  <!-- Header -->
+  <header>
+    <h1>My CityU Website</h1>
+    <p>With a <b>flexible</b> and <b>responsive</b> layout.</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#" onclick="toggle();">Link 1</a>
+    <a href="#" onclick="toggle();">Link 2</a>
+    <a href="#" onclick="toggle();">Link 3</a>
+    <a href="#" onclick="toggle();">Link 4</a>
+  </nav>
+
+  <!-- The flexible grid (content) -->
+  <row class="row">
+    <!-- side content and main content here -->
+    <aside>
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg" style="height: 200px;">Image</div>
+      <p>Some text about me in culpa qui officia daserunt mollit anim..</p>
+      <h3>More Text</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <div class="fakeimg" style="height: 60px;">Image</div><br>
+      <div class="fakeimg" style="height: 60px;">Image</div><br>
+      <div class="fakeimg" style="height: 60px;">Image</div>
+    </aside>
+
+    <main>
+      <section>
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2019</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </section>
+
+      <br>
+
+      <section>
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2019</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </section>
+    </main>
+  </row>
+
+  <!-- Footer -->
+  <footer>
+    <h2>Footer</h2>
+  </footer>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" onclick="toggle();">&times;</span>
+      <p>Some text in the modal..</p>
+    </div>
+  </div>
+
+</html>
