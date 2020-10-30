@@ -37,7 +37,6 @@ var app = new Vue({
             this.sortElement = 'id';
         }
         if(clickedElement === this.currentSort) {
-          console.log('fk');
           this.currentSortDir = this.currentSortDir==='asc'?'desc':'asc';
         }
         else{
