@@ -87,8 +87,9 @@ function() {
         "<td>" + name.val() + "</td>" +
         "<td>" + password.val() + "</td>" +
       "</tr>" );
-      var username = name.val()
-      var parsePassword = password.val()
+      
+      var username = document.getElementById("name").value
+      var parsePassword =   document.getElementById("password").value
       var tran = JSON.stringify({"username": username,"password": parsePassword})
       let msg = "{\"username\":\"" + username + "\",\"password\":\"" + parsePassword + "\"}";
       console.log(tran)
